@@ -1,9 +1,13 @@
+This contains the timeline of the tasks that i've accomplished as a Google Summer of Code student
+
 First week, 
 -> I worked on writing tests (missing ones) to the existing develop branch's feature that was added last summer. The test that i wrote was to download and save the plot generated using selenium.
 Link to the PR : https://github.com/osuosl/pgd/pull/22
 
-Meanwhile, i was also working on moving few elements into the Django's form so that it would be convinent for writing tests for the feature that the button is meant to implement. Later, me and my mentor decided to use Django's testing framework to send request directly to the URL that the button was intended to,
-Link to the branch that i was working : 
+Meanwhile, i was also working on moving few elements into the Django's form so that it would be convinent for writing tests for the feature that the button is meant to implement. Later, me and my mentor decided to use Django's "Test Client" testing framework and a little bit of manipulation.
+
+Also, for getting myself introduced to testdriven development using Django's "Test Client" testing framework, my mentor created an app that just had the functionality which I was intending to test in my first phase of work.
+Link to the repo : https://github.com/mathuin/svgpng/
 
 Second Phase,
 Building occupancy awareness into PGD and it's. I underestimated this phase by allocating 1 week to complete. Also, i forgot an issue that was a part of this hierarchy, which i'm working on currently. 
